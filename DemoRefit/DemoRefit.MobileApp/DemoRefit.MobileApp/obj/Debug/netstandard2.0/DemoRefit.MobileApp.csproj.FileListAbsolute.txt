@@ -1,0 +1,15 @@
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\bin\Debug\netstandard2.0\DemoRefit.MobileApp.deps.json
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\bin\Debug\netstandard2.0\DemoRefit.MobileApp.dll
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\bin\Debug\netstandard2.0\ref\DemoRefit.MobileApp.dll
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\bin\Debug\netstandard2.0\DemoRefit.MobileApp.pdb
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\DemoRefit.MobileApp.csprojAssemblyReference.cache
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\RefitStubs.g.cs
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\DemoRefit.MobileApp.csproj.CoreCompileInputs.cache
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\DemoRefit.MobileApp.AssemblyInfoInputs.cache
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\DemoRefit.MobileApp.AssemblyInfo.cs
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\XamlC.stamp
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\DemoRefit.MobileApp.dll
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\ref\DemoRefit.MobileApp.dll
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\DemoRefit.MobileApp\DemoRefit.MobileApp\obj\Debug\netstandard2.0\DemoRefit.MobileApp.pdb

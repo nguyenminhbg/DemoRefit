@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1jbKd2IhhSbm/SRk9zVY0HR+dwYlz8H652tpa/fB76riFJ30zA9wMUxvVr8aVWkg/+btgqpOgZj1dyOG56WdRg==",
+  "success": true,
+  "projectFilePath": "F:\\ASP.NET CORE\\Samples\\DemoRefit\\DemoRefit\\DemoConsole\\DemoConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MinhNguyen\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\MinhNguyen\\.nuget\\packages\\refit\\5.1.67\\refit.5.1.67.nupkg.sha512",
+    "C:\\Users\\MinhNguyen\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
