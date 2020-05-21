@@ -28,5 +28,42 @@ namespace Demo.BackendApi.Controllers
             }
             return Task.FromResult(listUser);
         }
+        [HttpGet("group/{id}/users")]
+        public Task<List<User>> GetListAlias(int id)
+        {
+            var listUser = new List<User>();
+            for (var i = 0; i <= 9; ++i)
+            {
+                listUser.Add(new User() { FullName = "Do Thanh Binh", UserName = "ThanhBinh" });
+            }
+            return Task.FromResult(listUser);
+        }
+        [HttpGet("group/{id}/users/{userid}")]
+        public Task<List<User>> GroupRequest(int id, int userid)
+        {
+            var listUser = new List<User>();
+            for (var i = 0; i <= 9; ++i)
+            {
+                listUser.Add(new User() { FullName = "Do Thanh Binh", UserName = "ThanhBinh" });
+            }
+            return Task.FromResult(listUser);
+        }
+        [HttpGet("search/admin/products")]
+
+        public Task<string> Search()
+        {
+            return Task.FromResult("Admin Do Thanh Hai");
+        }
+        [HttpPost("users/new/account")]
+        public  Task<IActionResult> CreateUser([FromBody] User username)
+        {
+            return Task.FromResult<IActionResult>(Ok(username.UserName)); 
+        }
+        [HttpPost("users/new/account/endcode")]
+        [Consumes("application/x-www-form-urlencoded")]
+        public Task<IActionResult> CreateUserEndcode([FromForm]Dictionary<string,string> data)
+        {
+            return Task.FromResult<IActionResult>(Ok(data.Values));
+        }
     }
 }

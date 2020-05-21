@@ -38,6 +38,7 @@ namespace WindowsFormsApp1
     using global::System.Linq;
     using global::System.Text;
     using global::System.Threading.Tasks;
+    using global::System.Web.ModelBinding;
 
     /// <inheritdoc />
     [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
@@ -71,6 +72,46 @@ namespace WindowsFormsApp1
             var arguments = new object[] {  };
             var func = requestBuilder.BuildRestResultFuncForMethod("GetUserList", new Type[] {  });
             return (Task<List<User>>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
+        Task<List<User>> IGitHubApi.GroupList(int groupId)
+        {
+            var arguments = new object[] { groupId };
+            var func = requestBuilder.BuildRestResultFuncForMethod("GroupList", new Type[] { typeof(int) });
+            return (Task<List<User>>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
+        Task<List<User>> IGitHubApi.GroupListBlock(UserGroupRequest request)
+        {
+            var arguments = new object[] { request };
+            var func = requestBuilder.BuildRestResultFuncForMethod("GroupListBlock", new Type[] { typeof(UserGroupRequest) });
+            return (Task<List<User>>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
+        Task<string> IGitHubApi.Search(string page)
+        {
+            var arguments = new object[] { page };
+            var func = requestBuilder.BuildRestResultFuncForMethod("Search", new Type[] { typeof(string) });
+            return (Task<string>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
+        Task<string> IGitHubApi.CreateUser(User username)
+        {
+            var arguments = new object[] { username };
+            var func = requestBuilder.BuildRestResultFuncForMethod("CreateUser", new Type[] { typeof(User) });
+            return (Task<string>)func(Client, arguments);
+        }
+
+        /// <inheritdoc />
+        Task<string> IGitHubApi.CreateUserEndcode(Dictionary<string, string> data)
+        {
+            var arguments = new object[] { data };
+            var func = requestBuilder.BuildRestResultFuncForMethod("CreateUserEndcode", new Type[] { typeof(Dictionary<string, string>) });
+            return (Task<string>)func(Client, arguments);
         }
     }
 }

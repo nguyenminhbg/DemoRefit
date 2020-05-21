@@ -92,7 +92,9 @@
     <Compile Include="IGitHubApi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefitSetting.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="UserGroupRequest.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
