@@ -23,6 +23,7 @@ F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\bin\Debug\System.Te
 F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\bin\Debug\System.Text.Json.xml
 F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
 F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
 F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
@@ -31,4 +32,3 @@ F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\obj\Debug\WindowsFo
 F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-F:\ASP.NET CORE\Samples\DemoRefit\DemoRefit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache

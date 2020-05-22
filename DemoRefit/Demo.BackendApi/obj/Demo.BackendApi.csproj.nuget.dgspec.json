@@ -47,6 +47,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Abp.Web.Common": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            },
+            "Microsoft.CrmSdk.Workflow": {
+              "target": "Package",
+              "version": "[9.0.2.24, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.3, )"

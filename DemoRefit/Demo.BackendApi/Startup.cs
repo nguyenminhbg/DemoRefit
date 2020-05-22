@@ -27,6 +27,7 @@ namespace Demo.BackendApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddTransient<IStorageService, FileStorageService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,7 +37,7 @@ namespace Demo.BackendApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -49,7 +50,6 @@ namespace Demo.BackendApi
                      name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-
         }
     }
 }

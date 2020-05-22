@@ -32,7 +32,7 @@ namespace WindowsFormsApp1
         }
         public async void GetUser()
         {
-            var result = await http.GetAsync("https://localhost:5001/api/demorefit/users/minh");
+            var result = await http.GetAsync("https://192.168.1.110:5001/api/demorefit/users/minh");
             var responseContent = await result.Content.ReadAsStringAsync();
 
             var gitHubApi = RestService.For<IGitHubApi>("https://localhost:5001");
